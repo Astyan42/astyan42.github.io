@@ -4,8 +4,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 /// <reference path="Phaser/phaser.d.ts"/>
-var Pumpkin;
-(function (Pumpkin) {
+var PumpkinNinja;
+(function (PumpkinNinja) {
     var Play = (function (_super) {
         __extends(Play, _super);
         function Play() {
@@ -44,7 +44,7 @@ var Pumpkin;
             this.ropeDocked = false;
             // create background first
             this.background = this.game.add.tileSprite(0, 0, 800, 600, 'wall');
-            this.pumpkin = new Pumpkin.Pumpkin(this.game, 50, this.game.world.centerY);
+            this.pumpkin = new PumpkinNinja.Pumpkin(this.game, 50, this.game.world.centerY);
             for (var i = 0; i < 30; i++) {
                 var block = this.game.add.sprite(i * 32 + 16, 16, "block");
                 this.game.physics.p2.enable(block);
@@ -158,6 +158,6 @@ var Pumpkin;
         };
         return Play;
     })(Phaser.State);
-    Pumpkin.Play = Play;
-})(Pumpkin || (Pumpkin = {}));
+    PumpkinNinja.Play = Play;
+})(PumpkinNinja || (PumpkinNinja = {}));
 //# sourceMappingURL=Play.js.map

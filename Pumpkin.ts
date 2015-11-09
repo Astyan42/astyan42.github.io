@@ -1,4 +1,4 @@
-﻿module Pumpkin {
+﻿module PumpkinNinja {
     export class Pumpkin extends Phaser.Sprite {
         
         private light:Phaser.Sprite;

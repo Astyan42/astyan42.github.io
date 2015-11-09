@@ -1,5 +1,5 @@
 ﻿/// <reference path="Phaser/phaser.d.ts"/>
-module Pumpkin {
+module PumpkinNinja {
     export class Play extends Phaser.State {
         private tilesprite;
         public background: Phaser.TileSprite;

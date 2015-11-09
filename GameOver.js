@@ -3,8 +3,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Pumpkin;
-(function (Pumpkin) {
+var PumpkinNinja;
+(function (PumpkinNinja) {
     var GameOver = (function (_super) {
         __extends(GameOver, _super);
         function GameOver() {
@@ -33,6 +33,6 @@ var Pumpkin;
         };
         return GameOver;
     })(Phaser.State);
-    Pumpkin.GameOver = GameOver;
-})(Pumpkin || (Pumpkin = {}));
+    PumpkinNinja.GameOver = GameOver;
+})(PumpkinNinja || (PumpkinNinja = {}));
 //# sourceMappingURL=GameOver.js.map
